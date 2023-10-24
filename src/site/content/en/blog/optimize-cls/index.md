@@ -77,7 +77,7 @@ However, other post-load shifts that are unexpected by the user may be included 
 {% Img src="image/W3z1f5ZkBJSgL1V1IfloTIctbIF3/2eO9BsIb8Gx6kU4Zvbqa.png", alt="Screenshot of PageSpeed Insights showing URL-level data highlighting the real user CLS which is considerably larger than the Lighthouse CLS", width="800", height="450" %}
 
 {% Aside important %}
-  PageSpeed Inights will show URL-level data where it exists, and attempt to fall back to origin-level data where this does not exist. Always check what data is showing to ensure you do not waste time trying to track down a CLS issue that actually exists on other pages on your origin! In the above example you can see this is URL-level data as shown in the top right of the image.
+  PageSpeed Insights will show URL-level data where it exists, and attempt to fall back to origin-level data where this does not exist. Always check what data is showing to ensure you do not waste time trying to track down a CLS issue that actually exists on other pages on your origin! In the above example you can see this is URL-level data as shown in the top right of the image.
 {% endAside %}
 
 ### Identifying load CLS issues
